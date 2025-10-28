@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl0khtckt0plm"]
+
+[ext_resource type="Script" uid="uid://cm3eajye0gcir" path="res://penguin.gd" id="1_7j1qa"]
+[ext_resource type="Texture2D" uid="uid://5o58hgdv16km" path="res://pengy.png" id="2_7j1qa"]
+
+[node name="Penguin" type="Node2D"]
+script = ExtResource("1_7j1qa")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("2_7j1qa")
