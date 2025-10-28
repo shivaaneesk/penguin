@@ -1,4 +1,4 @@
-# WARNING: This code will crash due to mismatched boundary constants.
+
 extends Node2D
 
 # These constants are inconsistent with the is_within_boundaries function.
